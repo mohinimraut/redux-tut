@@ -4,4 +4,17 @@
 =>git reposirory => https://github.com/mohinimraut/redux-tut
 ->git init
 ->git add .
+->git commit  -m "first commit"
+---
+git steps
+----
+echo "# redux-tut" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mohinimraut/redux-tut.git
+git push -u origin main
 
+-------------
+container connect between Redux and components
